@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Cook!</title>
+    
+    <style>
+    body {
+        font-family: trirong;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: #d9d7d7;
+    }
+    
+    header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d9d7d7;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: ruby-text;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+    
+    main {
+        margin: 50px auto;
+        width: 50%;
+        background: #d9d7d7;
+        padding: 30px;
+        
+    }
+    main h2{
+        margin-top: 0px;
+        margin-bottom: 70px;
+    }
+    
+    .input-box {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 5px;
+        padding-left: 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: #c7c7c9;
+    }
+    
+    .input-box label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .input-box input {
+        font-size: 16px;
+        border: none;
+        margin: 1px;
+        border-radius: 2px;
+        background-color: #c7c7c9;
+    }
+    
+    button {
+        margin-top: 30px;
+        background-color: #d9d7d7;
+        color: black;
+        padding: 10px 20px;
+        border: 1px solid black;
+        font-size: 16px;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: gray;
+    }
+    
+    
+    footer {
+        margin-top: 30px;
+        padding: 20px;
+        background-color: #d1cbcb;
+        
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        margin: 0 5px;
+    }
+
+
+</style>
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <img src="/bg_logo_figma.png" height="80px" alt="Let's Cook Logo">
+            <span class="logo-text">Let's Cook!</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="profile.html" class="user-icon">&#128100;</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Let's create something exciting!</h2>
+
+        <form>
+            <div class="input-box">
+                <label>What ingredients do you have?*</label>
+                <input type="text" placeholder="Enter your ingredients...">
+            </div>
+
+            <div class="input-box">
+                <label>What cuisine do you prefer?*</label>
+                <input type="text" placeholder="Enter your cuisine type...">
+            </div>
+
+            <div class="input-box">
+                <label>For how many people</label>
+                <input type="number" placeholder="Enter number of people...">
+            </div>
+
+            <a href="generated_recipe.html"><button type="button">Get Recipe</button></a>
+        </form>
+    </main>
+
+    <footer>
+        <p><a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a></p>
+        <p>All rights reserved. <a href="#">Imprint</a> - <a href="#">Privacy Policy</a> - <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>

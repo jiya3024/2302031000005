@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body {
+            font-family: Trirong;
+            margin: 0;
+            padding: 0;
+            background-color: #d9d7d7;
+            text-align: center;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #d9d7d7;
+        }
+        main {
+            width: 100%;
+            background-color: #d9d7d7;
+        }
+        h1{
+            align-items: center;
+        }
+        hr{
+            border-width: 2px;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+           
+        }
+        .profile-container {
+            display: flex;
+            padding: 10px;
+            margin-left: 150px;
+            
+        }
+        .profile-pic {
+            justify-content: start;
+            align-items: start;
+            font-size: 50px;
+            margin: 20px 20px 20px 20px;
+        }
+        .profile-info {
+            align-content: center;
+            margin-top: 0px;
+        }
+        .edit-button {
+            background-color: #8c9195;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        .menu {
+            text-align: left;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+        }
+        .menu-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: black;
+            padding: 10px 0;
+            font-size: 18px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #d1cbcb;
+        }
+        footer a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        .profile-container img{
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="/bg_logo_figma.png" height="80px" alt="Let's Cook Logo">
+            <span class="logo-text">Let's Cook!</span>
+        </div>
+    </header>
+    <main>
+        <h1>My Profile</h1>
+        <div class="profile-container">
+            <div class="profile-pic">
+                <img src="/images/profile1.jpg"  height="200px" alt="Let's Cook Logo">
+            </div>
+            <div class="profile-info">
+                <p><strong>abcd efgh</strong></p>
+                <p>abcd123@example.com</p>
+                <button class="edit-button">Edit Profile</button>
+            </div>
+        </div>
+
+    </main>
+    <hr>
+    <div class="menu">
+        <a href="history.html"><div class="menu-item">&#8634; History</div></a>
+        <div class="menu-item">&#127760; Languages</div>
+        <div class="menu-item">&#128465; Clear cache</div>
+        <div class="menu-item">&#8635; Log Out</div>
+    </div>
+    <hr>
+    <footer>
+        <p><a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a></p>
+        <p>All rights reserved. Imprint - Privacy Policy - Terms of Service</p>
+    </footer>
+</body>
+</html>

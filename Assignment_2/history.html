@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe History</title>
+    <style>
+        body {
+            font-family: Trirong;
+            margin: 0;
+            padding: 0;
+            background-color: #d9d7d7;
+            text-align: center;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #d9d7d7;
+            padding: 10px 20px;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-left: auto;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: ruby-text;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+        }
+
+        main {
+            padding: 20px;
+            margin-bottom: 145px;
+        }
+        table {
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: lightgray;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #d1cbcb;
+       
+        }
+
+        footer a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+           
+        
+
+        
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo-container"> 
+            <img src="/bg_logo_figma.png" height="80px" alt="Let's Cook!"> 
+            <span class="logo-text">Let's Cook!</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="user-icon">&#128100;</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Recipe History!</h2>
+        <table>
+            <tr>
+                <th>Serial Number</th>
+                <th>Recipe Name</th>
+                <th>Generated Recipe</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Garlic Bread</td>
+                <td>Generate Recipe</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Spicy Tomato and Potato Rice</td>
+                <td>Generate Recipe</td>
+            </tr>
+        </table>
+    </main>
+    <footer>
+        <p><a href="#">About Us</a> | <a href="#">Contact Us</a></p>
+        <p>All rights reserved. <a href="#">Imprint</a> - <a href="#">Privacy Policy</a> - <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
